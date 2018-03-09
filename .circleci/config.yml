@@ -18,7 +18,7 @@ jobs:
 
       - run:
          name: Run Laravel Server
-         command: php artisan serve
+         command: php artisan serve --port=9000
          background: true
 
       - run:
